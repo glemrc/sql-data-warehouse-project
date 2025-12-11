@@ -1,9 +1,11 @@
 /*
 -----------------------------------------------
-DDL SCRIPT: Creación de las tablas de 'Bronze'
+Instrucciones: Correr primero lo que esta
+debajo de 'EXEC bronze.load_bronze'
+y luego ejecutar este mismo.
 
-Crea las tables de Bronze y si es que existen 
-las 'Dropea'.
+Aqui se hace Bulk Insert de los csv con los datos
+a las tablas 'bronze' creadas anteriormente.
 -----------------------------------------------
 */
 EXEC bronze.load_bronze
