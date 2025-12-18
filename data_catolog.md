@@ -129,3 +129,7 @@ Registra las transacciones de ventas, representando cada producto vendido dentro
 
 ## 🔗 Relaciones del Modelo
 
+dim_customers (1) ────< fact_sales >──── (1) dim_product
+
+
+
