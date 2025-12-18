@@ -1,0 +1,55 @@
+
+---
+
+## ✅ Controles de Calidad de Datos
+
+Se implementan **quality checks** en Silver y Gold para asegurar:
+
+- Unicidad de claves primarias y sustitutas.
+- Integridad referencial entre hechos y dimensiones.
+- Consistencia de métricas (ventas = cantidad × precio).
+- Validación de fechas y rangos válidos.
+- Estandarización de valores categóricos.
+
+Los scripts de validación se encuentran en:
+- `scripts/silver/quality_checks_silver.sql`
+- `scripts/gold/quality_checks_gold.sql`
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- **SQL Server**
+- **T-SQL**
+- **Modelado Dimensional**
+- **Arquitectura Medallion**
+- **Git & GitHub**
+
+---
+
+## ▶️ Ejecución del Proyecto
+
+1. Ejecutar `init_database.sql`
+2. Crear tablas Bronze (`ddl_bronze.sql`)
+3. Cargar datos Bronze (`proc_load_bronze.sql`)
+4. Crear tablas Silver (`ddl_silver.sql`)
+5. Ejecutar carga Silver (`proc_load_silver.sql`)
+6. Validar calidad Silver
+7. Crear vistas Gold (`ddl_gold.sql`)
+8. Ejecutar validaciones Gold
+
+---
+
+## 📄 Documentación Adicional
+
+- 📘 **Data Catalog**: `data_catalog.md`
+- 🧩 Diagramas de arquitectura y modelo en `/documents`
+
+---
+
+## 👤 Autor
+
+Proyecto desarrollado como parte de mi **portafolio profesional en Data Engineering**, demostrando diseño de Data Warehouse, SQL avanzado y buenas prácticas de calidad de datos.
+
+---
+
