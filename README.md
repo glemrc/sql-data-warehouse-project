@@ -56,44 +56,36 @@ El proyecto sigue el enfoque **Medallion Architecture**:
 
 ## 📁 Estructura del Repositorio
 
----
+```
 datasets/
 ├── source_crm/
 │   ├── cust_info.csv
 │   ├── prd_info.csv
 │   └── sales_details.csv
-│
 ├── source_erp/
 │   ├── CUST_AZ12.csv
 │   ├── LOC_A101.csv
 │   └── PX_CAT_G1V2.csv
-│
 documentos/
 ├── data_model.jpg
 ├── dataflow_diagram.jpg
 ├── integration_model.jpg
 └── data_catalog.md
-│
 scripts/
 ├── bronze/
 │   ├── ddl_bronze.sql
 │   └── proc_load_bronze.sql
-│
 ├── silver/
 │   ├── ddl_silver.sql
 │   ├── proc_load_silver.sql
 │   └── quality_checks_silver.sql
-│
 ├── gold/
 │   ├── ddl_gold.sql
 │   └── quality_checks_gold.sql
-│
 ├── init_database.sql
-│
 LICENSE
 README.md
-
----
+```
 
 ## ✅ Controles de Calidad de Datos
 
