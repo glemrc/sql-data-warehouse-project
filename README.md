@@ -56,6 +56,7 @@ El proyecto sigue el enfoque **Medallion Architecture**:
 
 ## 📁 Estructura del Repositorio
 
+---
 datasets/
 ├── source_crm/
 │ ├── cust_info.csv
@@ -71,7 +72,7 @@ documentos/
 ├── data_model.jpg
 ├── dataflow_diagram.jpg
 ├── integration_model.jpg
-└── data_catalog.md
+├── data_catalog.md
 └── data_catalog.yml
 │
 scripts/
@@ -92,4 +93,5 @@ scripts/
 │
 LICENSE
 README.md
+---
 
