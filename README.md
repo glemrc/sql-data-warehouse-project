@@ -67,7 +67,7 @@ datasets/
 │ ├── LOC_A101.csv
 │ └── PX_CAT_G1V2.csv
 │
-documents/
+documentos/
 ├── data_model.jpg
 ├── dataflow_diagram.jpg
 ├── integration_model.jpg
