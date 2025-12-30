@@ -53,7 +53,78 @@ El proyecto sigue el enfoque **Medallion Architecture**:
   - Métricas listas para análisis (ventas, cantidad, precio).
 
 ---
+## 📈 Dashboard Ejecutivo – Vista Directiva
 
+### 🎯 Objetivo del Dashboard
+Proveer una **vista ejecutiva de desempeño comercial**, enfocada en:
+
+- Evolución temporal de ventas  
+- Crecimiento interanual (YoY)  
+- Distribución por categorías  
+- Principales clientes  
+- KPIs clave para la toma de decisiones  
+
+El dashboard fue diseñado bajo principios de **minimalismo, claridad y storytelling**, priorizando **insights accionables** sobre el detalle operativo.
+
+---
+
+### 🖼️ Vista General
+- 📌 **Periodo analizado:** Dic-2010 a Ene-2014  
+- 📌 **Fuente:** Capa Gold del Data Warehouse  
+- 📌 **Herramienta:** Power BI  
+
+![Vista Directiva – Dashboard Ejecutivo](documentos/Vista Directiva.pdf)
+
+
+---
+
+### 📌 Componentes del Dashboard
+
+#### 🔹 KPIs Ejecutivos
+- **Ventas Totales**
+- **Cantidad Total Vendida**
+- **Average Ticket**
+
+Diseñados para responder rápidamente a la pregunta:
+> **“¿Cómo estamos hoy?”**
+
+---
+
+#### 🔹 Evolución Temporal de Ventas
+- Análisis mensual de ventas.
+- Implementación de la técnica **Focus + Context**:
+  - Año principal destacado.
+  - Años anteriores atenuados.
+- Permite identificar **tendencias**, **estacionalidad** y **puntos de inflexión**.
+
+---
+
+#### 🔹 Cantidad Vendida por Categoría
+- Visualización de participación porcentual.
+- Facilita identificar **categorías dominantes** y **oportunidades de crecimiento**.
+
+---
+
+#### 🔹 Top 5 Clientes
+- Ranking dinámico de clientes por ventas.
+- Permite identificar **concentración de ingresos** y **clientes clave**.
+
+---
+
+#### 🔹 YoY Growth %
+- Comparación interanual de ventas.
+- Indicadores visuales de crecimiento positivo o negativo.
+- Se excluyen años incompletos para evitar **distorsiones analíticas**.
+
+---
+
+### 🧠 Decisiones Analíticas Clave
+- Se ajustó la **tabla calendario** al rango real de datos para evitar ruido y comparaciones inválidas.
+- Los cálculos de **YoY** devuelven `BLANK()` cuando el año previo no existe en el contexto.
+- Se priorizó **legibilidad ejecutiva** sobre densidad de información.
+- El dashboard consume exclusivamente la **Gold Layer**, respetando el principio de separación entre **ingeniería** y **analítica**.
+
+---
 ## 📁 Estructura del Repositorio
 
 ```
