@@ -73,7 +73,7 @@ El dashboard fue diseñado bajo principios de **minimalismo, claridad y storytel
 - 📌 **Fuente:** Capa Gold del Data Warehouse  
 - 📌 **Herramienta:** Power BI  
 
-![Vista Directiva – Dashboard Ejecutivo](documentos/Vista Directiva.pdf)
+![Vista Directiva – Dashboard Ejecutivo](documentos/vista_directiva.png)
 
 
 ---
